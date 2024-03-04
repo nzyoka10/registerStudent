@@ -27,7 +27,7 @@ The form includes two buttons:
 
 ## Live Link
 
-You can view the live form [here](https://example.com/student_registration_form.html).
+You can view the live form [here](https://nzyoka10.github.io/registerStudent/).
 
 ## Note
 
