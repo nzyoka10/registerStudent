@@ -1,35 +1,54 @@
-# HTML Form for Student Registration
+# Student Management System
 
-This HTML form is designed to facilitate the registration process for new students. It collects essential information required for student enrollment. Below are the details of the form:
+This project is a simple student management system implemented using PHP, MySQL, and Bootstrap. It allows users to perform CRUD operations (Create, Read, Update, Delete) on student records.
 
-## Form Elements
+## Features
 
-1. **Name**: Text input field for entering the student's name.
-2. **Date of Birth**: Date input field for entering the student's date of birth.
-3. **Gender**: Radio buttons for selecting the student's gender (Male, Female, Other).
-4. **Address**: Text input field for entering the student's address.
-5. **Telephone**: Text input field for entering the student's telephone number.
-6. **Email Address**: Email input field for entering the student's email address.
-7. **Course**: Dropdown menu for selecting the course the student wants to enroll in.
+- **Dashboard**: Displays a listing of student records.
+- **Add New Student**: Allows users to add a new student record.
+- **Edit Student**: Allows users to edit existing student records.
+- **Delete Student**: Allows users to delete existing student records.
 
-## Buttons
+## Technologies Used
 
-The form includes two buttons:
+- PHP
+- MySQL
+- Bootstrap
 
-1. **Register**: Submits the form for student registration.
-2. **Cancel**: Redirects the user to the homepage or the previous page.
 
-## Usage
+## Setup
 
-1. Fill out all the required fields with the relevant information.
-2. Click the **Register** button to submit the registration form.
-3. Click the **Cancel** button to discard the registration and return to the previous page.
+1. **Clone the Repository**:
 
-## Live Link
+    ```
+    git clone https://github.com/your-username/student-management-system.git
+    ```
 
-You can view the live form [here](https://nzyoka10.github.io/registerStudent/).
+2. **Database Configuration**:
 
-## Note
+    - Import the `database.sql` file provided in the `database` directory to set up the necessary database and table structure.
+    - Update the database connection details in the `config.php` file located in the `logic` directory.
 
-All fields in the form are mandatory to ensure accurate and complete registration information.
+3. **Run the Application**:
+
+    - Ensure that your PHP server is running.
+    - Navigate to the project directory in your browser to access the application.
+
+## File Structure
+
+student-management-system/
+│
+├── logic/ # Contains PHP logic files
+│ ├── config.php # Database configuration file
+│ ├── dashboard.php # Dashboard page to display student records
+│ ├── add.php # Form to add new student
+│ └── edit.php # Form to edit existing student
+│
+├── database/ # Contains SQL file for database setup
+│ └── database.sql # SQL file to create database and table
+│
+├── README.md # Project README file
+└── styles.css # Custom CSS styles
+
+
 
