@@ -35,7 +35,7 @@ This project is a simple student management system implemented using PHP, MySQL,
     - Navigate to the project directory in your browser to access the application.
 
 ## File Structure
-
+```markdwon
 student-management-system/
 │
 ├── logic/ # Contains PHP logic files
@@ -49,6 +49,6 @@ student-management-system/
 │
 ├── README.md # Project README file
 └── styles.css # Custom CSS styles
-
+```
 
 
