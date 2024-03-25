@@ -2,6 +2,18 @@
 
 This project is a simple student management system implemented using PHP, MySQL, and Bootstrap. It allows users to perform CRUD operations (Create, Read, Update, Delete) on student records.
 
+###### Screenshots
+
+``Home``
+
+![Home](./img/home.png)
+
+``Dashboard``
+
+![Dashboard](./img/stud.png)
+
+
+
 ## Features
 
 - **Dashboard**: Displays a listing of student records.
@@ -14,14 +26,6 @@ This project is a simple student management system implemented using PHP, MySQL,
 - PHP
 - MySQL
 - Bootstrap
-
-## Screenshots
-
-``Home``
-![Home](./img/home.png)
-
-``Dashboard``
-![Dashboard](./img/stud.png)
 
 
 
