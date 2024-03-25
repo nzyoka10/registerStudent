@@ -15,6 +15,15 @@ This project is a simple student management system implemented using PHP, MySQL,
 - MySQL
 - Bootstrap
 
+## Screenshots
+
+``Home``
+![Home](./img/home.png)
+
+``Dashboard``
+![Dashboard](./img/stud.png)
+
+
 
 ## Setup
 
