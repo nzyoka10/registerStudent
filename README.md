@@ -26,7 +26,7 @@ This project is a simple student management system implemented using PHP, MySQL,
 
 2. **Database Configuration**:
 
-    - Import the `database.sql` file provided in the `database` directory to set up the necessary database and table structure.
+    - Import the `reg_student.sql` file provided in the `database` directory to set up the necessary database and table structure.
     - Update the database connection details in the `config.php` file located in the `logic` directory.
 
 3. **Run the Application**:
